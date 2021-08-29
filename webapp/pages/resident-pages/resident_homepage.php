@@ -381,50 +381,13 @@
                     <div class="col"> 
                         <h2 class="text-center"> E-Services</h2>
                         <hr>
+                        
+                        <br>
                     </div> 
                 </div>
                 
                 <div class="row">
-                    <div class="col"> 
-                        <a href="services_business.php ?id_resident=<?= $userdetails['id_resident'];?>">
-                            <div class="zoom1"> 
-                                <div class="card"> 
-                                    <div class="card-body text-center"> 
-                                        <img src="../../image-assets/resident-images/busper.png">
-                                        <h4> Business Permit </h4> 
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col"> 
-                        <a href="services_brgyid.php ?id_resident=<?= $userdetails['id_resident'];?>">
-                            <div class="zoom1">
-                                <div class="card"> 
-                                    <div class="card-body text-center"> 
-                                        <img style="height: 139px;" src="../../image-assets/resident-images/brgyid.png">
-                                        <h4> Barangay ID </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col"> 
-                        <a href="services_certofindigency.php ?id_resident=<?= $userdetails['id_resident'];?>">
-                            <div class="zoom1">
-                                <div class="card"> 
-                                    <div class="card-body text-center"> 
-                                        <img src="../../image-assets/resident-images/indigency.png">
-                                        <h4> Certificate of Indigency </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <br>
-                <div class="row card-spacing"> 
+                   
                     <div class="col">
                         <a href="services_certofres.php ?id_resident=<?= $userdetails['id_resident'];?>"> 
                         <div class="zoom1">    
@@ -451,16 +414,16 @@
                         </a>
                     </div>
 
-                    <div class="col">
-                        <a href="services_blotter.php ?id_resident=<?= $userdetails['id_resident'];?>"> 
-                        <div class="zoom1">    
-                            <div class="card"> 
-                                <div class="card-body text-center">
-                                    <img src="../../image-assets/resident-images/complain.png"> 
-                                    <h4> Peace and Order</h4> 
+                    <div class="col"> 
+                        <a href="services_certofindigency.php ?id_resident=<?= $userdetails['id_resident'];?>">
+                            <div class="zoom1">
+                                <div class="card"> 
+                                    <div class="card-body text-center"> 
+                                        <img src="../../image-assets/resident-images/indigency.png">
+                                        <h4> Certificate of Indigency </h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         </a>
                     </div>
                 </div>
