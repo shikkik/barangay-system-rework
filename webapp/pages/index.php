@@ -1,7 +1,7 @@
 <?php 
     error_reporting(E_ALL ^ E_WARNING);
-    require('../webapp/classes/main.class.php');
-    $bmis->login();
+   
+   
     
     if(!isset($_SESSION)) {
         $showdate = date("Y-m-d");
@@ -11,7 +11,8 @@
         $_SESSION['storetime'] = $showdate;
         session_start();
     }
-
+    require('../../webapp/classes/main.class.php');
+    $bmis->login();
 ?>
 
 <!DOCTYPE html> 
@@ -21,8 +22,8 @@
         <!-- responsive tags for screen compatibility -->
         <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
         <!-- bootstrap css -->
-        <link href="../libraries-frameworks/bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet" type="text/css"> 
-        <link href="../webapp/index.css" rel="stylesheet" type="text/css"> 
+        <link href="../pages/libraries-frameworks/bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link href="../pages/index.css" rel="stylesheet" type="text/css"> 
         <!-- fontawesome icons --> 
         <script src="https://kit.fontawesome.com/67a9b7069e.js" crossorigin="anonymous"></script>
         <!-- fontawesome icons --> 
