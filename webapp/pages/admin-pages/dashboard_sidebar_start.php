@@ -87,7 +87,7 @@
 
             <!-- Certificate of Residency -->
             <li class="nav-item">
-                <a class="nav-link" href="admn_certofres.php">
+                <a class="nav-link" href="../admin-pages/services/admn_certofres.php">
                     <i class="fas fa-file-word"></i>
                     <span>Certificate of Residency</span></a>
             </li>
@@ -108,14 +108,14 @@
 
             <!-- Barangay Clearance -->
             <li class="nav-item">
-                <a class="nav-link" href="admn_brgyclearance.php">
+                <a class="nav-link" href="../admin-pages/services/admn_certofres.php">
                     <i class="fas fa-file"></i>
                     <span>Barangay Clearance</span></a>
             </li>
 
             <!-- Certificate of Indigency -->
             <li class="nav-item">
-                <a class="nav-link" href="admn_certofindigency.php">
+                <a class="nav-link" href="../admin-pages/services/admn_certofres.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Certificate of Indigency</span></a>
             </li>
