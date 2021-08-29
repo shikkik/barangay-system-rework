@@ -1,7 +1,6 @@
 <?php
     
     error_reporting(E_ALL ^ E_WARNING);
-    ini_set('display_errors',0);
     require('../../../classes/resident.class.php');
     $userdetails = $bmis->get_userdata();
     $bmis->validate_admin();
@@ -13,7 +12,7 @@
 ?>
 
 <?php 
-    include('../dashboard_sidebar_start.php');
+    include('services_sidebar_start.php');
 ?>
 
 <style>
