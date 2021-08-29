@@ -54,7 +54,7 @@ class BMISClass {
                 //statement na mag ch check kung admin yung role
                 if($user['role'] == 'administrator') {
                     $this->set_userdata($user);
-                    header('Location: admn_dashboard.php');
+                    header('Location: ../webapp/pages/admin-pages/test.php');
                     return (0);
                 }
 
@@ -67,7 +67,7 @@ class BMISClass {
                     //statement na mag ch check kung user yung role
                     if($user['role'] == 'user') {
                         $this->set_userdata($user);
-                        header('Location: staff_dashboard.php');
+                        header('Location: ../webapp/pages/staff-pages/teststaff.php');
                         return(0);
                     }
 
@@ -78,7 +78,7 @@ class BMISClass {
 
                         if($user['role'] == 'resident') {
                             $this->set_userdata($user);
-                            header('Location: resident_homepage.php');
+                            header('Location: ../webapp/pages/resident-pages/testresident.php');
                             return(0);
                         }
 

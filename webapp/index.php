@@ -1,5 +1,7 @@
 <?php 
     error_reporting(E_ALL ^ E_WARNING);
+    require('../webapp/classes/main.class.php');
+    $bmis->login();
     
     if(!isset($_SESSION)) {
         $showdate = date("Y-m-d");
@@ -10,11 +12,6 @@
         session_start();
     }
 
-    //include('autoloader.php');
-    require('classes/main.class.php');
-    $bmis->login();
-
-   
 ?>
 
 <!DOCTYPE html> 
@@ -24,56 +21,12 @@
         <!-- responsive tags for screen compatibility -->
         <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
         <!-- bootstrap css -->
-        <link href="../bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link href="../libraries-frameworks/bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+        <link href="../webapp/index.css" rel="stylesheet" type="text/css"> 
         <!-- fontawesome icons --> 
         <script src="https://kit.fontawesome.com/67a9b7069e.js" crossorigin="anonymous"></script>
         <!-- fontawesome icons --> 
-        <script src="../bootstrap-5.0.2/js/bootstrap.bundle.js" type="text/javascript"></script>
-
-        <style> 
-            body {
-                background-color: #00405B !important;
-            }
-            .input-container {
-            display: -ms-flexbox; /* IE10 */
-            display: flex;
-            width: 100%;
-            margin-bottom: 10px;
-            }
-
-            .icon {
-            padding: 15px;
-            background: dodgerblue;
-            color: white;
-            min-width: 50px;
-            text-align: center;
-            }
-
-            .input-field {
-            width: 100%;
-            padding: 10px;
-            outline: none;
-            }
-
-            .input-field:focus {
-            border: 2px solid dodgerblue;
-            }
-
-            /* Set a style for the submit button */
-            .btn {
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            opacity: 0.9;
-            }
-
-            .btn:hover {
-            opacity: 1;
-            }
-        </style>
-
+        <script src="../libraries-frameworks/bootstrap-5.0.2/js/bootstrap.bundle.js" type="text/javascript"></script>
     </head>
 
 
@@ -126,16 +79,18 @@
 
                                 <hr>
 
-                                <div class="registration-section"> 
+                                <div class="registration-section text-center"> 
                                     <p1> <strong> Haven't registered yet? </strong> </p1> 
 
                                     <br>
 
                                     <p1> Hindi ka pa rehistrado? </p1> 
 
-                                    <br>
+                                    <br><br>
 
                                     <button class="btn btn-success create-button" onclick="trying();"> Create Account </button> 
+                                    <br>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -149,7 +104,7 @@
 
         <!-- Footer -->
 
-        <footer id="footer" class="bg-primary text-white d-flex-column text-center">
+        <footer id="footer" class="footer bg-primary text-white d-flex-column text-center">
 
             <!--Copyright-->
 
