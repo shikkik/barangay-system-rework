@@ -389,10 +389,10 @@
                 <div class="row">
                    
                     <div class="col">
-                        <a href="services_certofres.php ?id_resident=<?= $userdetails['id_resident'];?>"> 
+                        <a href="../services-pages/services_brgyclearance.php?id_resident=<?= $userdetails['id_resident'];?>"> 
                         <div class="zoom1">    
                             <div class="card"> 
-                                <div class="card-body text-center"> 
+                                <div class="card-body text-center">
                                 <img src="../../image-assets/resident-images/residency.png">
                                     <h4> Certificate of Residency </h4>
                                 </div>
@@ -402,7 +402,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="services_brgyclearance.php ?id_resident=<?= $userdetails['id_resident'];?>"> 
+                        <a href="../services-pages/services_brgyclearance.php?$userdetails['id_resident'];?>"> 
                         <div class="zoom1">    
                             <div class="card"> 
                                 <div class="card-body text-center">
@@ -415,7 +415,7 @@
                     </div>
 
                     <div class="col"> 
-                        <a href="services_certofindigency.php ?id_resident=<?= $userdetails['id_resident'];?>">
+                        <a href="../services-pages/services_brgyclearance.php?id_resident=<?= $userdetails['id_resident'];?>">
                             <div class="zoom1">
                                 <div class="card"> 
                                     <div class="card-body text-center"> 
