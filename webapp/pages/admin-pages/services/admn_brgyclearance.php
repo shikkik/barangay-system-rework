@@ -71,7 +71,7 @@
     <div class="row"> 
         <div class="col"> 
             <?php 
-                include('admn_brgyclearance_search.php');
+                include('../services/admn_brgyclearance_search.php');
             ?>
         </div>
     </div>
@@ -81,4 +81,6 @@
 </div>
 <!-- End of Main Content -->
 
-
+<?php 
+    include('../dashboard_sidebar_end.php');
+?>

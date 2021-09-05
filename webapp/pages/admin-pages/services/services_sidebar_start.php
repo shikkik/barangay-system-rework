@@ -31,11 +31,11 @@
         <ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admn_dashboard.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../admin_dashboard.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     
                 </div>
-                <div class="sidebar-brand-text">Administrator Dashboard </div>
+                <div class="sidebar-brand-text">Barangay System </div>
             </a>
 
             <!-- Divider -->
@@ -43,7 +43,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="admn_dashboard.php">
+                <a class="nav-link" href="../admin_dashboard.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -87,42 +87,23 @@
 
             <!-- Certificate of Residency -->
             <li class="nav-item">
-                <a class="nav-link" href="../../admin-pages/services/admn_certofres.php">
+                <a class="nav-link" href="admn_certofres.php">
                     <i class="fas fa-file-word"></i>
                     <span>Certificate of Residency</span></a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="admn_brgyid.php">
-                    <i class="fas fa-id-card"></i>
-                    <span>Barangay ID </span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="admn_bspermit.php">
-                    <i class="fas fa-file-contract"></i>
-                    <span>Business Permit</span></a>
-            </li>
-
             <!-- Barangay Clearance -->
             <li class="nav-item">
-                <a class="nav-link" href="../../admin-pages/services/admn_certofres.php">
+                <a class="nav-link" href="admn_brgyclearance.php">
                     <i class="fas fa-file"></i>
                     <span>Barangay Clearance</span></a>
             </li>
 
             <!-- Certificate of Indigency -->
             <li class="nav-item">
-                <a class="nav-link" href="../../admin-pages/services/admn_certofres.php">
+                <a class="nav-link" href="admn_certofindigency.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Certificate of Indigency</span></a>
-            </li>
-
-            <!-- Complain Blotter Report -->
-            <li class="nav-item">
-                <a class="nav-link" href="admn_blotterreport.php">
-                    <i class="fas fa-user-shield"></i>
-                    <span>Peace and Order Report</span></a>
             </li>
 
             

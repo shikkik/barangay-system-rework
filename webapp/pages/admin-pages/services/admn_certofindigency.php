@@ -15,6 +15,7 @@
 <?php 
     include('services_sidebar_start.php');
 ?>
+
 <style>
     .input-icons i {
         position: absolute;
@@ -76,7 +77,6 @@
 </div>
 <!-- End of Main Content -->
 
-
 <?php 
-    include('dashboard_sidebar_end.php');
+    include('../../includes/dashboard_sidebar_end.php');
 ?>
